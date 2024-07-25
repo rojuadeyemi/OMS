@@ -2,8 +2,8 @@
 
 In this project, an OMS was designed, to manage and streamline the tracking of orders from inception to fulfillment and managing the people, processes and data connected to the order as it moves through its lifecycle, utilizing T-SQL for database operations and automation.
 
-## Schena Diagram 
-[schema]()
+## Schema Diagram 
+![schema](OMS_Diagram.png)
 
 ## Key Features 
 * Stored Procedures and Functions for order processing, including order entry, updates, cancellations, and inventory management
@@ -20,21 +20,24 @@ In this project, an OMS was designed, to manage and streamline the tracking of o
 * Automation: Jobs for regular data backup, report generation, and system maintenance tasks.
 
 
-See [Process Flow]() for the full implementation breakdown
+See [Process Flow](Process%20Flow.xlsx) for the full process flow.
 
 ## Technologies Used
 * Microsoft SQL Server
 * T-SQL
+* Microsoft SQL Server Management Studio
 * SQL Server Agent for job scheduling and automation.
 
 ## Installation and Setup
  To run this project on your machine you need to install the latest Microsoft SQL Server then follow the steps below.
- * Open the 
+ * Open and run the script [OMS Query](OMS%20Query.sql)
+
+**Note**: The script creates the database, the Tables and programatic functionalities, so there is no need to recreate the Tables.
 
 
 ## Usage
-Ensure you have SQL Server Installed
-
+After the Installation, Open the script [OMS Modules](OMS%20Modules.sql).
+* Run the modules by first supply the parameters specified
 
 
 ## Future Enhancements
