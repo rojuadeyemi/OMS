@@ -2,8 +2,10 @@
 
 In this project, an OMS was designed, to manage and streamline the tracking of orders from inception to fulfillment and managing the people, processes and data connected to the order as it moves through its lifecycle, utilizing T-SQL for database operations and automation.
 
-## Key Features
-* Database Architecture [schema]()
+## Schena Diagram 
+[schema]()
+
+## Key Features 
 * Stored Procedures and Functions for order processing, including order entry, updates, cancellations, and inventory management
 * Triggers to enforce business rules and maintain data integrity, such as automatic inventory updates and order status tracking
 * Reporting
@@ -26,7 +28,8 @@ See [Process Flow]() for the full implementation breakdown
 * SQL Server Agent for job scheduling and automation.
 
 ## Installation and Setup
- To inssta
+ To run this project on your machine you need to install the latest Microsoft SQL Server then follow the steps below.
+ * Open the 
 
 
 ## Usage
