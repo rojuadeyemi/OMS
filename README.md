@@ -27,14 +27,19 @@ In this project, an OMS was designed, to manage and streamline the tracking of o
 * SQL Server Agent for job scheduling and automation.
 
 ## Installation and Setup
- To run this project on your machine you need to install the latest Microsoft SQL Server then follow the steps below.
+ To run this project on your machine you need to install the latest [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?ocid=ORSEARCH_Bing&msockid=2730f34aaaf46142121be0efabe9604e), and [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16), then follow the steps below.
+ * Clone the repository
+   ```sh
+   git clone https://github.com/rojuadeyemi/Order-Management-System.git
+   ```
+   
  * Open and run the script [OMS Query](scripts/OMS%20Query.sql)
 
-**Note**: The script creates the database, the Tables and programatic functionalities, so there is no need to recreate the Tables.
+**Note**: The script creates the database, the tables and all programatic functionalities.
 
 
 ## Usage
-After the Installation, Open the script [OMS Modules](scripts/OMS%20Modules.sql).
+After the creation of the OMS database, Open the script [OMS Modules](scripts/OMS%20Modules.sql).
 * Run the modules by first supply the parameters specified
 
 For example, for Order to Cash Management module
