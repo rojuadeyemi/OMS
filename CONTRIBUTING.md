@@ -30,24 +30,13 @@ Please note that this project is governed by a [Code of Conduct](CodeofConduct.m
 - Check if the feature has already been requested by searching the [issue tracker](./issues).
 - If it hasn't, create a new issue.
 - Describe the feature in detail, including its purpose and how it can improve the project.
+- Add accompanying test case.
 
 ### Submitting Changes
 - Fork the repository and create a new branch for your changes (`git checkout -b feature/your-feature-name`).
-- Ensure your code adheres to the project's coding standards.
 - Commit your changes with a clear and descriptive message.
 - Push your branch to your forked repository.
 - Submit a pull request, describing your changes and linking to any relevant issues.
-
-- If adding a new feature:
-
-  - Add accompanying test case.
-  - Provide a convincing reason to add this feature. Ideally, you should open a suggestion issue first and have it approved before working on it.
-
-- If fixing a bug:
-
-  - If you are resolving a special issue, add `(fix #xxxx[,#xxxx])` (#xxxx is the issue id) in your PR title for a better release log, e.g. `update entities encoding/decoding (fix #3899)`.
-  - Provide a detailed description of the bug in the PR. Live demo preferred.
-  - Add appropriate test coverage if applicable. You can check the coverage of your code addition by running `nr test-coverage`.
 
 ## Development Guidelines
 
