@@ -74,6 +74,10 @@ Note:
 As I continue to develop and enhance the OMS, the following features are under consideration:
 * User Interface (UI) for Input Collection
 * Enhanced Security Features
+* API Integration to provide an interface for integrating with other systems, such as e-commerce platforms, ERP systems, or third-party analytics tools
 
 ## Contribution
-I welcome contributions to these future enhancements! If you're interested in helping build the UI, improve the system's functionality, or add new features, please refer to the Contribution Guidelines for more details.
+Contributions are welcome! If you're interested in helping build the UI, improve the system's functionality, or add new features, please refer to the [Contribution Guidelines](CONTRIBUTING.md) for more details.
+
+### Contact
+For any inquiries or feedback, please contact rojuadeyemi@yahoo.com.
