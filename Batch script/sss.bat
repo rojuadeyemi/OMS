@@ -1,0 +1,1 @@
+sqlcmd /S DESKTOP-A6RH2T5\SCHOLAR_PASCAL /d Episode -E -i try_script.sql -o OUTPUTFILE.txt
